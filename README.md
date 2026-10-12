@@ -1,1 +1,1 @@
-# Music-Semantic-VAE
+# MSVAE Demo

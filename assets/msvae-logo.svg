@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="MSVAE logo">
+  <rect width="32" height="32" rx="8" fill="#182130"/>
+  <path d="M7 10v12m6-16v20" stroke="#31b79e" stroke-width="3"/>
+  <path d="M19 6v20m6-16v12" stroke="#f38c83" stroke-width="3"/>
+</svg>

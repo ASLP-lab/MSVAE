@@ -1,0 +1,13 @@
+# Inference config for the 24 kHz-input, 48 kHz-output checkpoint.
+model_type: DAC
+DAC.input_sample_rate: 24000
+DAC.sample_rate: 48000
+DAC.encoder_dim: 128
+DAC.encoder_rates: [4, 5, 6, 8]
+DAC.vae_dim: 64
+DAC.in_channels: 2
+DAC.out_channels: 2
+DAC.bigvgan_conf: src/config/bigvgan_conf/bigvgan_v2_48khz_25hz_base_vae64.json
+DAC.muq_model_name: OpenMuQ/MuQ-large-msd-iter
+DAC.muq_hidden_state_layer: 6
+DAC.muq_channel_fusion: mean

@@ -1,0 +1,9 @@
+torch
+torchaudio
+muq
+librosa
+numpy
+PyYAML
+tqdm
+huggingface_hub
+einops

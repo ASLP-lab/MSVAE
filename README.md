@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://aslp-lab.github.io/MSVAE/">Audio demo</a> ·
   <a href="https://huggingface.co/ASLP-lab/MSVAE">Model weights</a> ·
-  Paper (coming soon)
+  <a href="https://arxiv.org/pdf/2610.17187">Paper</a>
 </p>
 
 Official inference code for **MSVAE (Music Semantic Variational Autoencoder)**. This release reconstructs stereo music with the Stage II model: it encodes audio at 24 kHz and decodes a 48 kHz stereo waveform.
@@ -104,7 +104,19 @@ bash scripts/infer.sh /path/to/input.wav /path/to/output_dir 0
 
 ## 📝 Citation
 
-The paper link and BibTeX entry will be added when the paper is publicly available.
+If you use MSVAE in your research, please cite [our paper](https://arxiv.org/abs/2610.17187):
+
+```bibtex
+@misc{ma2026msvaerethinkingmusicalsemantics,
+      title={MSVAE: Rethinking Musical Semantics in Continuous Latent Spaces},
+      author={Guobin Ma and Yuepeng Jiang and Dake Guo and Huakang Chen and Yuan Zhou and Lingxin Xiong and Wenkai Cheng and Jingbin Hu and Hanke Xie and Chunbo Hao and Wenhao Li and Ziqian Ning and Jixun Yao and Jian Zhao and Zhonglin Jiang and Yong Chen and Lei Xie and Pengcheng Zhu},
+      year={2026},
+      eprint={2610.17187},
+      archivePrefix={arXiv},
+      primaryClass={eess.AS},
+      url={https://arxiv.org/abs/2610.17187},
+}
+```
 
 ## 🙏 Acknowledgements
 

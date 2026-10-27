@@ -134,7 +134,7 @@ Click either image to view the full-resolution QR code.
 | :---: | :---: |
 | <a href="assets/Wechat.jpg"><img src="assets/Wechat.jpg" alt="MSVAE WeChat group QR code" width="240"></a> | <a href="assets/Bing0.jpg"><img src="assets/Bing0.jpg" alt="Bing0 personal WeChat QR code" width="240"></a> |
 
-The group QR code in the image expires before October 19, 2026. If it no longer works, please email us for a current invitation.
+The group QR code in the image expires before November 3, 2026. If it no longer works, please email us for a current invitation.
 
 ## 📄 License
 
